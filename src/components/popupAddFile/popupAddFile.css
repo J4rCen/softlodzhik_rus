@@ -1,0 +1,49 @@
+.popupAddFile_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: #252635;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.popupAddFile_title {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.popupAddFile_main {
+    padding: 20px;
+}
+
+.popupAddFile_main_file-name_input {
+    height: 30px;
+    background: #252635;
+    outline: none;
+    padding: 5px;
+    border: 1px solid #656d81;
+    border-radius: 5px;
+    width: 75%;
+}
+
+.select_button {
+    background-color: #5e89d8b4
+}
+
+.popupAddFile_button {
+    border: 1px solid #35364c;
+    padding: 2px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.popupAddFile_main_drop-zone_window-drop {
+    border: 1px #5E88D8 dashed;
+    border-radius: 5px;
+    height: 300px;
+}
